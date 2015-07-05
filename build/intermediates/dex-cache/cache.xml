@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Dropbox\Android\mySOTD\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\Dropbox\Android\mySOTD\app\build\intermediates\pre-dexed\debug\classes-e5f6f6cf5736e8d3e2ad786ff4861cb15d1d2ada.jar" />
+    </item>
+    <item
+        jar="E:\Dropbox\Android\mySOTD\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="E:\Dropbox\Android\mySOTD\app\build\intermediates\pre-dexed\debug\classes-4cf116593e9ca7e3e9c5207a6a19e7cf7db5e92a.jar" />
+    </item>
+    <item
+        jar="E:\Dropbox\Android\mySOTD\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\Dropbox\Android\mySOTD\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-480652efb8fcd01ae1c14feb351f6af8c0f8569c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ezha\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="E:\Dropbox\Android\mySOTD\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-2bf9a79dde6b527dd1125c3064e9d6e13c973acc.jar" />
+    </item>
+    <item
+        jar="E:\Dropbox\Android\mySOTD\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="E:\Dropbox\Android\mySOTD\app\build\intermediates\pre-dexed\debug\classes-0e23b19ce9b677ccee7d6035b3500da81a3099aa.jar" />
+    </item>
+
+</items>

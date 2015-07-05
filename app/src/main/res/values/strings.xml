@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mySOTD</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_shave_den">shaveDenActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

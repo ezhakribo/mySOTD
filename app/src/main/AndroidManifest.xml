@@ -42,11 +42,13 @@
     </activity>
         <activity
             android:name=".Views.AddShavingItem"
-            android:label="@string/title_activity_add_shaving_item" >
+            android:label="@string/title_activity_add_shaving_item"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:label="Add Category"
-            android:name=".Views.AddCategory" >
+            android:name=".Views.AddCategory"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 

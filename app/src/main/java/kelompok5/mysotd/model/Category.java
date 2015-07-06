@@ -1,6 +1,7 @@
 package kelompok5.mysotd.model;
 
 import com.orm.SugarRecord;
+import com.orm.dsl.Ignore;
 
 import java.util.List;
 
@@ -10,15 +11,17 @@ import java.util.List;
 public class Category  extends SugarRecord<Category> {
     private String idCategory;
     private String categoryName;
+    @Ignore
     private String note;
 
     //defining relationship
     List<Item> itemList;
 
     public Category(){}
-    public Category (String idCategory, String categoryName){
+    public Category (String idCategory, String categoryName, String note){
         this.idCategory = idCategory;
         this.categoryName = categoryName;
+        this.note = note;
     }
 
     /** @pdRoleInfo migr=no name=Item assc=association1 coll=java.util.Collection impl=java.util.HashSet mult=0..* */

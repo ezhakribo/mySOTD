@@ -32,16 +32,7 @@ public class MainActivity extends ActionBarActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Category.deleteAll(Category.class);
-        Category c1 = new Category("1", "Shaver");
-        Category c2 = new Category("2", "Aftershaves");
-        Category c3 = new Category("3", "Soap");
-        c1.setNote("This is for shaving");
-        c1.save();
-        c2.save();
-        c3.save();
 
-        List<Category> categories = Category.listAll(Category.class);
         mToolbar = (Toolbar) findViewById(R.id.toolbar_actionbar);
         setSupportActionBar(mToolbar);
 

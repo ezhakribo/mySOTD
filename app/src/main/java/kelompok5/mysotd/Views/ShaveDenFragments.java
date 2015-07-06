@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -36,13 +37,20 @@ public class ShaveDenFragments extends Fragment {
 
         ListView shavingItemListView = (ListView) rootview.findViewById(R.id.categorylistView);
         shavingItemListView.setAdapter(categoryAdapter);
+        shavingItemListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
+                return false;
+            }
+        });
 
         FloatingActionButton floatingActionButton = (FloatingActionButton) rootview.findViewById(R.id.add_button);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(), "Add button selected", Toast.LENGTH_SHORT).show();
-                Intent nextScreen = new Intent(getActivity(), AddShavingItem.class);
+                Intent nextScreen = new Intent(getActivity(), AddCategory.class);
                 startActivity(nextScreen);
                 /*FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction()

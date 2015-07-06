@@ -37,13 +37,13 @@ public class ShaveDenFragments extends Fragment {
 
         ListView shavingItemListView = (ListView) rootview.findViewById(R.id.categorylistView);
         shavingItemListView.setAdapter(categoryAdapter);
-        shavingItemListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+        /*shavingItemListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
 
                 return false;
             }
-        });
+        });*/
 
         FloatingActionButton floatingActionButton = (FloatingActionButton) rootview.findViewById(R.id.add_button);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
@@ -51,11 +51,10 @@ public class ShaveDenFragments extends Fragment {
             public void onClick(View v) {
                 Toast.makeText(getActivity(), "Add button selected", Toast.LENGTH_SHORT).show();
                 Intent nextScreen = new Intent(getActivity(), AddCategory.class);
+                onStop();
+                onDestroy();
                 startActivity(nextScreen);
-                /*FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction()
-                        .replace(R.id.container, new AddShavingItemFragment())
-                        .addToBackStack(null).commit();*/
+                onStart();
             }
         });
 

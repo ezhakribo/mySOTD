@@ -64,7 +64,7 @@ public class MainActivity extends ActionBarActivity
                 fragment = new ShaveDenFragments();
                 break;
             case 1:
-                fragment = new ShaveDenFragments();
+                fragment = new MySOTD();
                 break;
         }
         FragmentManager fragmentManager = getSupportFragmentManager();

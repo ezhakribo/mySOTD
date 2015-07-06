@@ -37,31 +37,21 @@ public class CategoryAdapter extends ArrayAdapter<Category> {
             convertView = mInflater.inflate(R.layout.fragment_category_adapter, null);
             holder = new ViewHolder();
             holder.categoryNameTextView = (TextView) convertView.findViewById(R.id.categoryName);
-            //holder.categoryNoteTextView = (TextView) convertView.findViewById(R.id.categoryNote);
+            holder.categoryNoteTextView = (TextView) convertView.findViewById(R.id.categoryNote);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
 
         holder.categoryNameTextView.setText(category.getCategoryName());
-        //holder.categoryNoteTextView.setText(category.getNote());
-        Button button = (Button) convertView.findViewById(R.id.button_editcategory);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Category.findById(Category.class, id).delete();
-                /*FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction()
-                        .replace(R.id.container, new AddShavingItemFragment())
-                        .addToBackStack(null).commit();*/
-            }
-        });
+        holder.categoryNoteTextView.setText(category.getNote());
+
         return convertView;
     }
 
     /*private view holder class*/
     private class ViewHolder {
         TextView categoryNameTextView;
-        //TextView categoryNoteTextView;
+        TextView categoryNoteTextView;
     }
 }

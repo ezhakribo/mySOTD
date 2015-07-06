@@ -40,6 +40,8 @@ public class AddCategory extends Activity {
     public void run(View view)
     {
         Bundle extras = getIntent().getExtras();
+        String namaCategory=name.getText().toString();
+        String noteCategory=note.getText().toString();
        //lakukan cara insert pake sugar gimana disini
         //lakukan diret ke halaman berikutnya gatau sy cara direct ke fragment gimana
     }

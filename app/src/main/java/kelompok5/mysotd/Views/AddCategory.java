@@ -7,23 +7,12 @@ import android.view.View;
 import android.widget.TextView;
 
 import kelompok5.mysotd.R;
+import kelompok5.mysotd.model.Category;
 
 /**
  * Created by gifary on 7/7/2015.
  */
 
-//tambahkan file ini ke android manifest
-        /*<activity android:label=”Add Category”
-            android:name=”.AddCategory” >
-            <intent-filter >
-                <action android:name=”kelompok5.mysotd.AddCategory” />
-                <category android:name="android.intent.category.DEFAULT" />
-             </intent-filter>
-        </activity>
-        */
-    /* cara pindah ke activiity saat klik tombol yg floating tambah code di bawah
-    startActivity(new Intent("kelompok5.mysotd.AddCategory"));
-     */
 public class AddCategory extends Activity {
 
     TextView name ;
@@ -42,6 +31,11 @@ public class AddCategory extends Activity {
         Bundle extras = getIntent().getExtras();
         String namaCategory=name.getText().toString();
         String noteCategory=note.getText().toString();
+
+        long count = Category.count(Category.class, null, null)+1;
+        Category c = new Category (String.valueOf(count), namaCategory, noteCategory);
+        c.save();
+        this.finish();
        //lakukan cara insert pake sugar gimana disini
         //lakukan diret ke halaman berikutnya gatau sy cara direct ke fragment gimana
     }

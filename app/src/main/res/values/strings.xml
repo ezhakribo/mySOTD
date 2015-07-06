@@ -6,4 +6,6 @@
     <string name="title_activity_shave_den">shaveDenActivity</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_category">AddCategory</string>
+    <string name="title_activity_add_form">AddForm</string>
 </resources>

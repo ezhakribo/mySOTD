@@ -7,15 +7,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="This is a TEST"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
+        android:text="Large Text"
+        android:id="@+id/categoryName" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
-        android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/categoryNote" />
 </LinearLayout>

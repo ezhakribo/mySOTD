@@ -17,7 +17,7 @@
     <!-- android:layout_marginTop="?android:attr/actionBarSize"-->
     <fragment android:id="@+id/fragment_drawer"
         android:layout_marginTop="@dimen/abc_action_bar_default_height_material"
-        android:name="kelompok5.mysotd.NavigationDrawerFragment"
+        android:name="kelompok5.mysotd.Views.NavigationDrawerFragment"
         android:layout_width="@dimen/navigation_drawer_width" android:layout_height="match_parent"
         android:layout_gravity="start" app:layout="@layout/fragment_navigation_drawer"
         tools:layout="@layout/fragment_navigation_drawer" />

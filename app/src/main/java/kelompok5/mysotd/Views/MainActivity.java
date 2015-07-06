@@ -1,4 +1,4 @@
-package kelompok5.mysotd;
+package kelompok5.mysotd.Views;
 
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import kelompok5.mysotd.R;
 import kelompok5.mysotd.model.Category;
 
 

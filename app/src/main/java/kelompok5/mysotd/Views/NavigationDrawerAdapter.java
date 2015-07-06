@@ -1,4 +1,4 @@
-package kelompok5.mysotd;
+package kelompok5.mysotd.Views;
 
 
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.List;
+
+import kelompok5.mysotd.R;
 
 
 public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDrawerAdapter.ViewHolder> {

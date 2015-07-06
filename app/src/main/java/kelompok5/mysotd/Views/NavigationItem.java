@@ -1,4 +1,4 @@
-package kelompok5.mysotd;
+package kelompok5.mysotd.Views;
 
 
 import android.graphics.drawable.Drawable;

@@ -2,39 +2,46 @@
 <items version="2" >
 
     <item
-        jar="E:\Dropbox\Android\mySOTD\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jar="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="E:\Dropbox\Android\mySOTD\app\build\intermediates\pre-dexed\debug\classes-e5f6f6cf5736e8d3e2ad786ff4861cb15d1d2ada.jar" />
+        <dex dex="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\pre-dexed\debug\classes-1eb44d8800eda0717928775e19b2e1e656445e98.jar" />
     </item>
     <item
-        jar="E:\Dropbox\Android\mySOTD\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jar="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.3\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="E:\Dropbox\Android\mySOTD\app\build\intermediates\pre-dexed\debug\classes-4cf116593e9ca7e3e9c5207a6a19e7cf7db5e92a.jar" />
+        sha1="07e07903922250dabf50c7d131d6fa069a050305">
+        <dex dex="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\pre-dexed\debug\classes-cd7913ad433adecac4df62006cf7161c5819e112.jar" />
     </item>
     <item
-        jar="E:\Dropbox\Android\mySOTD\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="E:\Dropbox\Android\mySOTD\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-480652efb8fcd01ae1c14feb351f6af8c0f8569c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Ezha\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="E:\Dropbox\Android\mySOTD\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-2bf9a79dde6b527dd1125c3064e9d6e13c973acc.jar" />
-    </item>
-    <item
-        jar="E:\Dropbox\Android\mySOTD\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jar="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
         sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
-        <dex dex="E:\Dropbox\Android\mySOTD\app\build\intermediates\pre-dexed\debug\classes-0e23b19ce9b677ccee7d6035b3500da81a3099aa.jar" />
+        <dex dex="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\pre-dexed\debug\classes-780895d19764fdc2aea2f6f64f1975295e172b6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\pre-dexed\debug\classes-1dfab6c14f9c5d97dacc23e64aa489eb96204fb0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mira\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-af2a055e9082593eeceaded21d044ce053bc94d9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Mira\AndroidStudioProjects\IBO_SOTD\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-5f4e407fdf16d48627960db9fbd375e486539eb6.jar" />
     </item>
 
 </items>

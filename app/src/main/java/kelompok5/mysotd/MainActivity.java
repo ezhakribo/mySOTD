@@ -2,12 +2,19 @@ package kelompok5.mysotd;
 
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import kelompok5.mysotd.model.Category;
 
 
 public class MainActivity extends ActionBarActivity
@@ -23,6 +30,14 @@ public class MainActivity extends ActionBarActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Category c1 = new Category("1", "Shaver");
+        Category c2 = new Category("2", "Aftershaves");
+        Category c3 = new Category("3", "Soap");
+        c1.save();
+        c2.save();
+        c3.save();
+
+        List<Category> categories = Category.listAll(Category.class);
         mToolbar = (Toolbar) findViewById(R.id.toolbar_actionbar);
         setSupportActionBar(mToolbar);
 
@@ -42,6 +57,19 @@ public class MainActivity extends ActionBarActivity
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
         Toast.makeText(this, "Menu item selected -> " + position, Toast.LENGTH_SHORT).show();
+        Fragment fragment = null;
+        switch (position){
+            case 0:
+                fragment = new ShaveDenFragments();
+                break;
+            case 1:
+                fragment = new ShaveDenFragments();
+                break;
+        }
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.container, fragment)
+                .commit();
     }
 
 

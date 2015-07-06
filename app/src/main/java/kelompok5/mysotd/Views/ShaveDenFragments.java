@@ -1,5 +1,6 @@
 package kelompok5.mysotd.Views;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -41,6 +42,8 @@ public class ShaveDenFragments extends Fragment {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(), "Add button selected", Toast.LENGTH_SHORT).show();
+                Intent nextScreen = new Intent(getActivity(), AddShavingItem.class);
+                startActivity(nextScreen);
                 /*FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new AddShavingItemFragment())

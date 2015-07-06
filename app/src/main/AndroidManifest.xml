@@ -3,15 +3,24 @@
     package="kelompok5.mysotd" >
 
     <application
+        android:name="com.orm.SugarApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"
-        android:name="com.orm.SugarApp" >
-        <meta-data android:name="DATABASE" android:value="my_sotd.db" />
-        <meta-data android:name="VERSION" android:value="2" />
-        <meta-data android:name="QUERY_LOG" android:value="true" />
-        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="kelompok5.mysotd.model" />
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="DATABASE"
+            android:value="my_sotd.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="kelompok5.mysotd.model" />
+
         <activity
             android:name=".Views.SplashScreen"
             android:label="@string/app_name"
@@ -31,6 +40,10 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Views.AddShavingItem"
+            android:label="@string/title_activity_add_shaving_item" >
         </activity>
     </application>
 

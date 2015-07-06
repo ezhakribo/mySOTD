@@ -2,12 +2,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_search"
-        android:title="@string/abc_searchview_description_search"
-        app:showAsAction="always"
-        android:icon="@drawable/ic_action_search"/>
-
-    <item
         android:id="@+id/action_settings"
         android:title="@string/action_settings" />
 </menu>

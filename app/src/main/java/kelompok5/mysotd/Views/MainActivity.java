@@ -13,10 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import java.util.List;
-
 import kelompok5.mysotd.R;
-import kelompok5.mysotd.model.Category;
 
 
 public class MainActivity extends ActionBarActivity
@@ -64,7 +61,7 @@ public class MainActivity extends ActionBarActivity
                 fragment = new MySOTDFragments();
                 break;
             case 1:
-                fragment = new MySOTD();
+                fragment = new ShaveDenFragments();
                 break;
         }
         FragmentManager fragmentManager = getSupportFragmentManager();

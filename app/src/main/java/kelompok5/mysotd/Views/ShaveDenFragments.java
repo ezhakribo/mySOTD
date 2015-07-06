@@ -51,10 +51,7 @@ public class ShaveDenFragments extends Fragment {
             public void onClick(View v) {
                 Toast.makeText(getActivity(), "Add button selected", Toast.LENGTH_SHORT).show();
                 Intent nextScreen = new Intent(getActivity(), AddCategory.class);
-                onStop();
-                onDestroy();
                 startActivity(nextScreen);
-                onStart();
             }
         });
 
